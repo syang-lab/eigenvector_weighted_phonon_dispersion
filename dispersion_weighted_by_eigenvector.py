@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 Thz_meV = 4.136
 atom =[0,1]
 
-with open('/Users/shanyang/Desktop/VO2_temperature/VO2_R/425K/MD-4/band.yaml') as file:
+with open('band.yaml') as file:
     try:
         data=yaml.safe_load(file)
     except yaml.error as error:
